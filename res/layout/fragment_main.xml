@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    tools:context=".FragmentMain" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:scaleType="matrix"
+        android:src="@drawable/bg_home" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_bg" >
+
+            <Button
+                android:id="@+id/bt_left"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_left" />
+
+            <Button
+                android:id="@+id/bt_nextdetalhes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/title_logo" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/bt_speak" />
+
+    <Button
+        android:id="@+id/bt_config"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/bt_speak"
+        android:layout_alignBottom="@+id/bt_speak"
+        android:layout_marginLeft="-15dp"
+        android:layout_toRightOf="@+id/bt_speak"
+        android:background="@drawable/ico_config" />
+
+    <RelativeLayout
+        android:id="@+id/layoutConfig"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/fecharConfigTbm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_config" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_box_sub"
+            android:paddingBottom="20dp" >
+
+            <EditText
+                android:id="@+id/nome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:hint="Qual seu nome?" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/nome" >
+
+                    <Button
+                        android:id="@+id/btVozBrasilOff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ico_brasil_off"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btVozBrasilOn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ico_brasil_on"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/linearLayout2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/linearLayout2" >
+
+                    <Button
+                        android:id="@+id/btVozUsaOn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ico_usa_on"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btVozUsaOff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ico_usa_off"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/fecharConfig"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/relativeLayout1"
+            android:layout_alignTop="@+id/relativeLayout1"
+            android:background="@drawable/ico_close" />
+    </RelativeLayout>
+
+</RelativeLayout>

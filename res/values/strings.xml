@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoHouse</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fragment_main">FragmentMain</string>
+    <string name="conectar">Desconectar</string>
+    <string name="desconectar">Conectar</string>
+    <string name="bt_nao_disponivel">Bluetooth não está disponível.</string>
+    <string name="bt_nao_foi_ativado">Bluetooth não foi ativado.</string>
+    <string name="macFalha">Erro ao recuperar o endereço MAC.</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="texto_menu_sobre">Aplicativo criado por Eduardo Silva, 2013.\n\nSe você quiser entrar em contato comigo, meu endereço de e-mail pode ser encontrado no meu blog.</string>
+    <string name="website_url">http://arduino-droid.blogspot.com.br/</string>
+    <string name="websiteButton">visite o blog</string>
+    <string name="okButton">OK</string>
+    <string name="aguarde">Espere por favor</string>
+    <string name="conectando_ao_dispositivo">Conectando ao dispositivo bluetooth...</string>
+    <string name="falha_ao_conectar">Falha ao conectar ao dispositivo.</string>
+    <string name="ligar">Ligar</string>
+    <string name="desligar">Desligar</string>
+    <string name="led">Controle de led</string>
+
+    <!-- DeviceListActivity -->
+    <string name="escaneando">Procurando dispositivos...</string>
+    <string name="selecionar_dispositivo">Selecione um dispositivo</string>
+    <string name="nenhum_pareado">Nenhum dispositivo foi pareado</string>
+    <string name="nenhum_encontrado">​​Nenhum dispositivo encontrado</string>
+    <string name="titulo_dispositivos_pareados">Dispositivos pareados</string>
+    <string name="titulo_outros_dispositivos">Outros Dispositivos Disponíveis</string>
+    <string name="botao_escanear">Procurar dispositivos</string>
+    
+    <!-- Speak PT -->
+    <string name="PTligaRestaurante">A luz do restaurante foi ligada.</string>
+    <string name="PTligaBar">A luz do bar foi ligada.</string>
+    <string name="PTligaControle">A luz da sala de controle foi ligada.</string>
+    <string name="PTligaEntrada">A luz da entrada foi ligada.</string>
+    <string name="PTligaEscada">A luz da escadaria foi ligada.</string>
+    <string name="PTligaRelogio">A luz do relógio foi ligada.</string>
+    <string name="PTligaGeral">Todas as luzes foram ligadas.</string>
+    <string name="PTligaFesta">É hora da festa. Boa diversão.</string>
+    <string name="PTligaErro">Desculpe. Tente dizer o que você quer ligar também.</string>
+    <string name="PTdesligaRestaurante">A luz do restaurante foi desligada.</string>
+    <string name="PTdesligaBar">A luz do bar foi desligada.</string>
+    <string name="PTdesligaControle">A luz da sala de controle foi desligada.</string>
+    <string name="PTdesligaEntrada">A luz da entrada foi desligada.</string>
+    <string name="PTdesligaEscada">A luz da escadaria foi desligada.</string>
+    <string name="PTdesligaRelogio">A luz do relógio foi desligada.</string>
+    <string name="PTdesligaGeral">Todas as luzes foram desligadas.</string>
+    <string name="PTdesligaFesta">Modo festa desativado. Até a proxima.</string>
+    <string name="PTdesligaErro">Desculpe. Tente dizer o que você quer desligar também.</string>
+    <string name="PTerro">Desculpe. Use ligar ou desligar seguindo do local.</string>
+    
+    
+
+</resources>

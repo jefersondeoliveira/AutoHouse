@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <RelativeLayout
+        android:id="@+id/drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#dfdfdf"
+        android:gravity="center_horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/layout_bt_geral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bluetooth">
+
+            <Button
+                android:id="@+id/bt_off_geral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_geral" />
+
+            <Button
+                android:id="@+id/bt_on_geral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_geral"
+                android:visibility="gone" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_bt_entrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bt_geral">
+
+            <Button
+                android:id="@+id/bt_off_entrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_entrada" />
+
+            <Button
+                android:id="@+id/bt_on_entrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_entrada"
+                android:visibility="gone" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_bt_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bt_entrada">
+
+            <Button
+                android:id="@+id/bt_off_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_bar" />
+
+            <Button
+                android:id="@+id/bt_on_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_bar"
+                android:visibility="gone" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_bt_escadaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bt_bar">
+
+            <Button
+                android:id="@+id/bt_off_escadaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_escadaria" />
+
+            <Button
+                android:id="@+id/bt_on_escadaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_escadaria"
+                android:visibility="gone" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_bt_controle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bt_escadaria">
+
+            <Button
+                android:id="@+id/bt_off_controle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_controle" />
+
+            <Button
+                android:id="@+id/bt_on_controle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_controle"
+                android:visibility="gone" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_bt_relogio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bt_controle">
+
+            <Button
+                android:id="@+id/bt_off_relogio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_relogio" />
+            
+            <Button
+                android:id="@+id/bt_on_relogio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_relogio"
+                android:visibility="gone"/>
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_bt_restaunte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bt_relogio">
+
+            <Button
+                android:id="@+id/bt_off_restaunte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_restaurante" />
+
+            <Button
+                android:id="@+id/bt_on_restaunte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_restaurante"
+                android:visibility="gone" />
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_bt_festa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_bt_restaunte">
+
+            <Button
+                android:id="@+id/bt_off_festa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_off_festa" />
+
+            <Button
+                android:id="@+id/bt_on_festa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_on_festa"
+                android:visibility="gone" />
+            
+        </RelativeLayout>
+        
+
+        <RelativeLayout
+            android:id="@+id/layout_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:id="@+id/bt_off_bluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bt_left_off_bluetooth" />
+
+            <Button
+                android:id="@+id/bt_on_bluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bt_left_on_bluetooth"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
