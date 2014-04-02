@@ -1,8 +1,8 @@
-AutoHouse
+AutoHouse (Automação Residencial)
 =========
 
- Codigo do app que controla um carrinho feito com a placa arduino.
- Controle atravez de movimentos no smartphone e comunicação via bluetooth.
+ Codigo do app que controla uma maquete feita com a placa arduino.
+ Controle atravez do smartphone com comunicação via bluetooth.
  
  Demonstração:
-  https://www.youtube.com/watch?v=RzEO33RBU6c
+  https://www.youtube.com/watch?v=zz7rXC6Z4SY
